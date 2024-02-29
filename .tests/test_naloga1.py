@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.getcwd())
+
 import naloga1
 import cv2 as cv
 import numpy as np
