@@ -2,7 +2,7 @@ import cv2 as cv
 
 if __name__ == '__main__':
     # Naložimo sliko
-    slika = cv.imread('slika.jpg')
+    slika = cv.imread('../.utils/lenna.png')
     # Preverimo, če je slika pravilno naložena
     if slika is None:
         print('Slika ni bila naložena.')

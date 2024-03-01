@@ -5,7 +5,7 @@ def shranjevanje_slike(slika, ime_slike):
     cv.imwrite(ime_slike, slika)
 
 if __name__ == '__main__':
-    slika = cv.imread('slika.jpg')
+    slika = cv.imread('../.utils/lenna.png')
     # Preverimo, če je slika pravilno naložena
     if slika is not None:
         slika_faktor = svs.spremeni_velikost_slike_faktor(slika, 0.5)

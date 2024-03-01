@@ -9,7 +9,7 @@ def spremeni_velikost_slike_diskretno(slika, sirina, visina):
     return cv.resize(slika, (sirina, visina))
 
 if __name__ == '__main__':
-    slika = cv.imread('slika.jpg')
+    slika = cv.imread('../.utils/lenna.png')
     # Preverimo, če je slika pravilno naložena
     if slika is not None:
         slika_faktor_1 = spremeni_velikost_slike_faktor(slika, 0.5)
